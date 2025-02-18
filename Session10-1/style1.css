@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bar {
+    background: #e5e5e5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #909090;
+}
+
+.menu .active {
+    font-weight: bold;
+    color: #444444;
+}
+
+.search {
+    background: #8d939e;
+    color: #e5e5e5;
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
