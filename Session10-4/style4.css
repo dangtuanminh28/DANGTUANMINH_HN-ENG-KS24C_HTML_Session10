@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 900px;
+    height: 490px;
+    background: #f0e6d3;
+    color: #23243b;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.about-john {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.about-john .title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-john img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+button {
+    width: 170px;
+    height: 45px;
+    margin-top: 30px;
+    background: #e36e69;
+    color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #d55c57;
+}
