@@ -1,63 +1,108 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #f0f0f0;
 }
-.container{
-    width: 1000px;
-    height: 1000px;
+
+section {
+    padding: 20px;
+    width: 950px;
 }
-.container .title{
-    background-image: url("./pic/football.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 500px;
+
+.content {
+    width: 910px;
+    display: flex;
     position: relative;
 }
-.headline{
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    bottom: 40px;
-    left: 20px;
+
+.content-main {
+
     position: absolute;
+    align-self: flex-end;
+    width: 550px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
 }
-.container .tag{
+
+.content button {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 8px;
-    font-size: 14px;
-    border: 1px solid white;
+    align-self: flex-start;
+    background: transparent;
+    border: 1px solid #f0f0f0;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 80px;
+    height: 25px;
 }
-.author{
-    color: #ffffff;
-    font-size: 14px;
-    position: absolute;
-    bottom: 80px;
-    left: 20px;
+
+img {
+    width: 900px;
+    height: 400px;
 }
-.content{
-    color: white;
-    bottom: 20px;
-    left: 20px;
-    position: absolute;
+
+.info {
+    width: 520px;
 }
-.navigation{
-    margin-top: 20px;
+
+.title h2 {
+    font-weight: 800;
+
 }
-.nav-button{
-    background-color: black;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 4px;
+
+.date span {
+    color: rgb(232, 230, 230);
 }
-.nav-button:hover {
-    background-color: black;
+
+.date {
+    height: 20px;
+
+    position: relative;
+    top: 10px;
+}
+
+.pages {
+    width: 900px;
+    display: flex;
+    background-color: rgb(248, 246, 246);
+    justify-content: flex-end;
+    height: 60px;
+    padding: 15px;
+    gap: 25px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.pages div {
+    color: rgb(164, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages i {
+    color: rgb(6, 6, 6) !important;
+    color: #f0f0f0 !important;
+
+}
+
+.pages div:nth-of-type(1) {
+    background-color: rgb(164, 163, 163);
+    width: 50px;
+    height: 30px;
+
+}
+
+.pages div:nth-of-type(6) {
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 30px;
+}
+
+.pages div:nth-of-type(2) {
+    background-color: rgb(0, 0, 0);
+    color: #f0f0f0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
 }
